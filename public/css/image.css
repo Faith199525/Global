@@ -1,0 +1,35 @@
+.container {
+    width: 60%;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.05);
+    min-width: 450px;
+    position: relative;
+    border-radius: 7px;
+}
+input[type="file"] {
+    display: none;
+}
+
+.container p {
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+#images {
+    width: 95%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+figure {
+    width: 45%;
+}
+.container img { 
+    width: 60%;
+    height: 80%;
+}
+figcaption {
+    font-size: 1.4vmin;
+    margin-top: 0.5vmin;
+}
